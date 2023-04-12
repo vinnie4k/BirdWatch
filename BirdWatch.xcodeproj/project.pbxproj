@@ -11,6 +11,7 @@
 		2E75A55829E73FD200D13DAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E75A55729E73FD200D13DAE /* ContentView.swift */; };
 		2E75A55A29E73FD300D13DAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E75A55929E73FD300D13DAE /* Assets.xcassets */; };
 		2E75A55D29E73FD300D13DAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E75A55C29E73FD300D13DAE /* Preview Assets.xcassets */; };
+		2E7B24B229E74F5E004027C2 /* BirdListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7B24B129E74F5E004027C2 /* BirdListView.swift */; };
 		2EF0FD4329E746DB004C551A /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF0FD4229E746DB004C551A /* Bird.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		2E75A55729E73FD200D13DAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E75A55929E73FD300D13DAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E75A55C29E73FD300D13DAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E7B24B129E74F5E004027C2 /* BirdListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdListView.swift; sourceTree = "<group>"; };
 		2EF0FD4229E746DB004C551A /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 				2E75A55729E73FD200D13DAE /* ContentView.swift */,
 				2E75A55929E73FD300D13DAE /* Assets.xcassets */,
 				2E75A55B29E73FD300D13DAE /* Preview Content */,
+				2E7B24B129E74F5E004027C2 /* BirdListView.swift */,
 			);
 			path = BirdWatch;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E75A55829E73FD200D13DAE /* ContentView.swift in Sources */,
+				2E7B24B229E74F5E004027C2 /* BirdListView.swift in Sources */,
 				2EF0FD4329E746DB004C551A /* Bird.swift in Sources */,
 				2E75A55629E73FD200D13DAE /* BirdWatchApp.swift in Sources */,
 			);
