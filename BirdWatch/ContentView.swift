@@ -10,7 +10,18 @@ import SwiftUI
 struct ContentView: View {
         
     var body: some View {
-        profileView
+        NavigationView {
+            VStack {
+                profileView
+                    .padding(.bottom, 50)
+                NavigationLink {
+                    BirdListView()
+                } label: {
+                    viewBirdsButton
+                }
+            }
+            .navigationTitle("Bird Watch")
+        }
     }
     
     private var profileView: some View {
@@ -25,18 +36,16 @@ struct ContentView: View {
                 Text("Location: ")
             }
             .font(.title)
-            
-            Button {
-                
-            } label: {
-                Text("View Birds")
-                    .font(.title2)
-                    .foregroundColor(.white)
-                    .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
-                    .background(.blue)
-                    .clipShape(RoundedRectangle(cornerRadius: 15))
-            }
         }
+    }
+    
+    private var viewBirdsButton: some View {
+        Text("View Birds")
+            .font(.title2)
+            .foregroundColor(.white)
+            .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
+            .background(.blue)
+            .clipShape(RoundedRectangle(cornerRadius: 15))
     }
     
 }
