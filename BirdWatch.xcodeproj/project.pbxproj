@@ -56,11 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				2EF0FD4229E746DB004C551A /* Bird.swift */,
+				2E7B24B129E74F5E004027C2 /* BirdListView.swift */,
 				2E75A55529E73FD200D13DAE /* BirdWatchApp.swift */,
 				2E75A55729E73FD200D13DAE /* ContentView.swift */,
 				2E75A55929E73FD300D13DAE /* Assets.xcassets */,
 				2E75A55B29E73FD300D13DAE /* Preview Content */,
-				2E7B24B129E74F5E004027C2 /* BirdListView.swift */,
 			);
 			path = BirdWatch;
 			sourceTree = "<group>";

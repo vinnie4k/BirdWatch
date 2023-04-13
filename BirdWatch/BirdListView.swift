@@ -11,14 +11,17 @@ struct BirdListView: View {
     
     var body: some View {
         List(birds, id: \.self) { bird in
-            birdInfoRow(name: bird.name, location: bird.location, image: bird.image)
+            birdInfoRow(name: bird.name, location: bird.location, image: bird.image, count: bird.count)
         }
         .navigationTitle("Birds List")
     }
     
-    private func birdInfoRow(name: String, location: String, image: String) -> some View {
+    private func birdInfoRow(name: String, location: String, image: String, count: Int) -> some View {
         HStack {
-            Spacer()
+            Text(String(count))
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding(.trailing, 30)
             
             VStack(alignment: .leading) {
                 Text(name)
@@ -28,15 +31,13 @@ struct BirdListView: View {
                     .fontWeight(.medium)
                     .italic()
             }
-            .font(.title)
+            .font(.title2)
             
             Spacer()
             
             Image(image)
                 .resizable()
                 .frame(width: 100, height: 100)
-            
-            Spacer()
         }
     }
     
@@ -47,4 +48,3 @@ struct BirdListView_Previews: PreviewProvider {
         BirdListView()
     }
 }
-
