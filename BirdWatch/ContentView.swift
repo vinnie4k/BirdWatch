@@ -10,7 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         HStack {
-            Spacer()
+            Text("7")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .padding(.trailing, 30)
             
             VStack(alignment: .leading) {
                 Text("Vin")
@@ -27,9 +30,8 @@ struct ContentView: View {
             Image("vin")
                 .resizable()
                 .frame(width: 100, height: 100)
-            
-            Spacer()
         }
+        .padding([.leading, .trailing], 30)
     }
 }
 

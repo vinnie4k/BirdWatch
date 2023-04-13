@@ -11,19 +11,20 @@ struct Bird {
     let name: String
     let location: String
     let image: String
+    let count: Int
 }
 
 // Normally this would be in a ViewModel
-let birds = [
-    Bird(name: "Alden", location: "New Jersey", image: "alden"),
-    Bird(name: "Antoinette", location: "New York", image: "antoinette"),
-    Bird(name: "Elvis", location: "New Jersey", image: "elvis"),
-    Bird(name: "Han", location: "Texas", image: "han"),
-    Bird(name: "Jennifer", location: "California", image: "jennifer"),
-    Bird(name: "Justin", location: "China", image: "justin"),
-    Bird(name: "Reade", location: "Connecticut", image: "reade"),
-    Bird(name: "Richie", location: "New York", image: "richie"),
-    Bird(name: "Tiffany", location: "New York", image: "tiffany"),
-    Bird(name: "Vin", location: "Texas", image: "vin"),
-    Bird(name: "Vivian", location: "Unknown", image: "vivian")
+var birds = [
+    Bird(name: "Alden", location: "New Jersey", image: "alden", count: 2),
+    Bird(name: "Antoinette", location: "New York", image: "antoinette", count: 6),
+    Bird(name: "Elvis", location: "New Jersey", image: "elvis", count: 7),
+    Bird(name: "Han", location: "Texas", image: "han", count: 1),
+    Bird(name: "Jennifer", location: "California", image: "jennifer", count: 5),
+    Bird(name: "Justin", location: "China", image: "justin", count: 8),
+    Bird(name: "Reade", location: "Connecticut", image: "reade", count: 1),
+    Bird(name: "Richie", location: "New York", image: "richie", count: 4),
+    Bird(name: "Tiffany", location: "New York", image: "tiffany", count: 3),
+    Bird(name: "Vin", location: "Texas", image: "vin", count: 7),
+    Bird(name: "Vivian", location: "Unknown", image: "vivian", count: 1)
 ]
