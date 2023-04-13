@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentView: View {
         
     var body: some View {
-        VStack {
+        VStack(spacing: 50) {
             profileView
-                .padding(.bottom, 50)
-            viewBirdsButton
+
+            viewBirdsButton            
         }
     }
     
