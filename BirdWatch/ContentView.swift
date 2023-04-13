@@ -27,6 +27,8 @@ struct ContentView: View {
                 Text("Name: ")
                 
                 Text("Location: ")
+                
+                Text("Count: ")
             }
             .font(.title)
         }
