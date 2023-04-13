@@ -11,9 +11,9 @@ struct ContentView: View {
         
     var body: some View {
         NavigationView {
-            VStack {
+            VStack(spacing: 50) {
                 profileView
-                    .padding(.bottom, 50)
+                
                 NavigationLink {
                     BirdListView()
                 } label: {
