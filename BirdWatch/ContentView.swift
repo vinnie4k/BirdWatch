@@ -77,6 +77,9 @@ struct ContentView: View {
     private var addBirdButton: some View {
         Button {
             birds.append(Bird(name: name, location: location, image: "newbie", count: count))
+            name = ""
+            location = ""
+            count = 0
         } label: {
             Text("Add Bird")
                 .font(.title2)
